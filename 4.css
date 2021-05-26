@@ -1,0 +1,490 @@
+body, html {
+	margin: 0px;
+}
+body {
+	background: linear-gradient(to top, #ece9e6, #ffffff) fixed;
+}
+h1 {
+	text-align: center;
+	color: #524144;
+	font-size: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 20px;
+}
+nav {
+	width: 80%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: solid 1px black;
+}
+nav div {
+	width: 30%;
+	text-align: center;
+	border-right: solid 1px black;
+}
+a {
+	color: #2441ab; 
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	font-size: 20px; 
+	text-decoration: none;
+}
+.navigator {
+	color: #942323;
+	text-decoration: underline;
+}
+a:hover {
+    color: #942323;
+	text-decoration: underline;
+}
+p {
+	margin-left: 10px;
+	margin-right: 15px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	float: left;
+	margin-top: 30px;
+}
+img {
+    float: left;
+    margin-right: 8px;
+}
+h2 {
+	margin-top: 50px;
+	color: #8f6c6a;
+	text-align: center;
+	font-size: 24px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	clear: left;
+}
+h3 {
+	color: #524144;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	margin-left: 10px;
+	clear: left;
+
+}
+ul {
+	list-style-type: square;
+	font-size: 17px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ol {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    text-align: justify;
+}
+.marg {
+	margin-top: 75px;
+}
+hr {
+    margin-top: 70px;
+	border: 1px solid black;
+	border-color: #524144;
+}
+footer {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.footer2 {
+	width: 100%;
+	display: flex;
+}
+.footer3 {
+	width: 33%;
+}
+.footer4 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.adres {
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.number {
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.number a {
+	text-decoration: none;
+	color: #244596;
+}
+.social {
+	margin-top: 15px;
+}
+.clr {
+	color: #524144;
+}
+.size {
+	font-size: 28px;
+}
+@media screen and (max-width: 320px)
+{
+	h1 {
+		font-size: 30px;
+		margin: 20px auto;
+	}
+	nav {
+		width: 60%;
+		flex-direction: column;
+		margin: 50px auto;
+	}
+	nav div {
+		width: 100%;
+		border-bottom: solid 1px black;
+    }
+	nav div:nth-child(5) {
+    	border-bottom: none;
+    }
+    nav div a {
+    	font-size: 16px;
+    }
+    .size {
+    	margin-top: 50px;
+    	font-size: 22px;
+    }
+    img {
+    	width: 80%;
+    	height: auto;
+    	float: none;
+    	margin-right: auto;
+    	margin-left: auto;
+    	display: block;
+    	margin-bottom: 20px;
+    }
+    p {
+    	font-size: 15px;
+    }
+    h3 {
+    	font-size: 18px;
+    }
+    ul {
+    	font-size: 15px;
+    }
+    ol {
+    	font-size: 15px;
+    }
+    footer {
+    	 margin-bottom: 20px;
+    }
+    .footer2 {
+    	flex-direction: column;
+    }
+    .footer3 {
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 10px;
+    }
+    .footer4 {
+    	padding-top: 10;
+    	font-size: 16px;
+    }
+    .adres {
+    	margin-top: 0px;
+    	padding-bottom: 10px;
+    	font-size: 14px;
+    }
+    .number {
+    	margin-top: 0px;
+    	padding-bottom: 10px;
+    	font-size: 14px;
+    }
+    .social {
+    	margin-top: 8px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px)
+{
+	h1 {
+		font-size: 40px;
+		margin: 20px auto;
+	}
+	nav {
+		flex-direction: column;
+		width: 60%;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+}
+	nav div {
+		width: 100%;
+		border-bottom: solid 1px black;
+	}
+	nav div a {
+	    font-size: 17px;
+	}
+	nav div:nth-child(5) {
+		border-bottom: none;
+	}
+	.size {
+		font-size: 26px;
+		margin-top: 70px;
+	}
+	img {
+		width: 70%;
+		float: none;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 17px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	ul {
+		font-size: 17px;
+	}
+	ol {
+		font-size: 17px;
+	}
+	.footer2 {
+        flex-direction: column;
+    }
+    .footer3 {
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 10px;
+    }
+    .footer4 {
+        padding-top: 10;
+        font-size: 18px;
+    }
+    .adres {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .number {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .social {
+        margin-top: 8px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+	h1 {
+		font-size: 45px;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	nav {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 70px;
+    }
+    nav div a{
+        font-size: 18px;   
+    }
+    nav div:nth-child(5) {
+        border-right: none;
+    }
+    .size {
+    	margin-top: 70px;
+    	font-size: 30px;
+    }
+    p {
+    	font-size: 20px;
+    	text-align: justify;
+    	margin-right: 15px;
+    	margin-left: 15px;
+    }
+    h3 {
+    	font-size: 25px;
+    }
+    ul {
+    	font-size: 20px;
+    }
+    ol {
+    	font-size: 20px;
+    }
+    .clr {
+    	font-size: 27px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer2 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer4 {
+    	font-size: 17px;
+    }
+    .adres {
+    	font-size: 15px;
+    }
+    .number {
+    	font-size: 15px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px)
+{
+	h1 {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	nav {
+        margin-top: 70px;
+	}
+	.navigators a {
+		font-size: 22px;
+	}
+	nav div:nth-child(5) {
+        border-right: none;
+    }
+    p {
+		font-size: 25px;
+	}
+	.size {
+		font-size: 35px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	ul {
+		font-size: 25px;
+	}
+	ol {
+		font-size: 25px;
+	}
+	.clr {
+		font-size: 33px;
+	}
+	footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+    	font-size: 23px;
+    }
+    .adres {
+    	font-size: 19px;
+    }
+    .number {
+    	font-size: 19px;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 1920px)
+{
+	h1 {
+		font-size: 60px;
+		margin-top: 20px;
+	}
+	nav {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    nav div a {
+    	font-size: 25px;
+    }
+    nav div:nth-child(5) {
+        border-right: none;
+    }
+    img {
+    	width: 30%;
+    }
+    p {
+    	font-size: 30px;
+    }
+    .size {
+    	font-size: 40px;
+    }
+    h3 {
+    	font-size: 36px;
+    }
+    ul {
+    	font-size: 30px;
+    }
+    ol {
+    	font-size: 30px;
+    }
+    .clr {
+    	font-size: 37px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+        font-size: 26px;
+    }
+    .adres {
+        font-size: 24px;
+    }
+    .number {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1921px)
+{
+	h1 {
+		font-size: 70px;
+		margin-top: 20px;
+    }
+    nav {
+    	margin-top: 70px;
+    	width: 85%;
+    }
+    nav div a {
+    	font-size: 27px;
+    }
+    nav div:nth-child(5) {
+        border-right: none;
+    }
+    .size {
+    	font-size: 50px;
+    }
+    p {
+    	font-size: 35px;
+    }
+    img {
+    	width: 35%;
+    }
+    h3 {
+    	font-size: 40px;
+    }
+    ul {
+    	font-size: 35px;
+    }
+    ol {
+    	font-size: 35px;
+    }
+    .clr {
+    	font-size: 45px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+        font-size: 30px;
+    }
+    .adres {
+        font-size: 26px;
+    }
+    .number {
+        font-size: 26px;
+    }
+}

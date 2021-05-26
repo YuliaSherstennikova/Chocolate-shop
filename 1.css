@@ -1,0 +1,706 @@
+html, body {
+	margin: 0px;
+}
+body {
+	background: linear-gradient(to top, #ece9e6, #ffffff) fixed; 
+}
+h1 {
+	text-align: center;
+	color: #524144;
+	font-size: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 50px;
+}
+p {
+	margin: 20px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 80px;
+}
+nav {
+	width: 80%;
+	margin: 80px auto;
+	display: flex;
+	border: 1px solid black; 
+}
+.navigators {
+	width: 30%;
+	border-right: 1px solid black;
+	text-align: center;  
+}
+nav a {
+	color: #2441ab;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.navigators:nth-child(5n) {
+	border-right: none;
+}
+a:hover {
+	color: #942323;
+	text-decoration: underline;
+}
+.link {
+	color: #942323;
+	text-decoration: underline;
+}
+h2 {
+	margin-top: 100px;
+	color: #8f6c6a;
+	text-align: center;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.choco {
+	display: flex;
+	width: 80%;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 80px;
+}
+.choco div {
+	width: 40%;
+	text-align: center;
+}
+span {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #524144;
+	font-size: 17px;
+}
+.choco2 {
+	margin-top: 70px;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+.choco2 div {
+	width: 50%;
+	text-align: center;
+}
+table {
+	width: 30%;
+	margin-left: auto; 
+	margin-right: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.th1 {
+	padding-left: 5px;
+	text-align: left;
+}
+th {
+	font-size: 17px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #2e1f1f;
+	border: 1px solid black;
+}
+td {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #2e1f1f;
+	padding-left: 5px;
+	border: 1px solid black;
+}
+.price {
+	text-align: center;
+}
+fieldset {
+	width: 30%;
+	margin-top: 80px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+legend {
+	margin-left: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #524144;
+	font-weight: bold;
+}
+button {
+	width: 100px;
+	height: 30px;
+	margin-top: 25px;
+	margin-left: 20px;
+	background-color: #d9d2d2;
+	border: 1px solid black;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	transition: height 1s linear 0s, background-color 2s linear 0s;
+}
+button:hover {
+	height: 36px;
+	background-color: #BC8F8F;
+}
+
+.zakaz {
+	color: #325796;
+	text-decoration: underline;
+	cursor: pointer;
+}
+hr {
+	margin-top: 70px;
+	border: 1px solid black;
+	border-color: #524144;
+}
+footer {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.footer2 {
+	width: 100%;
+	display: flex;
+}
+.footer3 {
+	width: 33%;
+}
+.footer4 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.adres {
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.number {
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.number a {
+	text-decoration: none;
+	color: #244596;
+}
+.social {
+	margin-top: 15px;
+}
+@media screen and (max-width: 320px)
+{
+	h1 {
+		font-size: 30px;
+		margin: 20px auto;
+	}
+	nav {
+		width: 60%;
+		flex-direction: column;
+		margin: 50px auto;
+	}
+	.navigators {
+		width: 100%;
+		border-bottom: solid 1px black;
+	}
+    .navigators:nth-child(5) {
+    	border-bottom: none;
+    }
+    .navigators a {
+    	font-size: 16px;
+    }
+    p {
+    	font-size: 15px;
+    	margin-top: 50px;
+    }
+    h2 {
+    	margin-top: 50px;
+    	font-size: 22px;
+    }
+    .choco {
+    	width: 100%;
+    	flex-direction: column;
+    	margin-top: 10px;
+    }
+    .choco div {
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+        margin-top: 30px;
+    }
+    .choco div img {
+    	width: 80%;
+    	height: auto;
+    }
+    span {
+    	font-size: 14px;
+    }
+    .choco2 {
+    	width: 100%;
+    	flex-direction: column;
+    	margin-top: 1px;
+    }
+    .choco2 div {
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .choco2 div img {
+    	width: 80%;
+    	height: auto;
+    }
+    table {
+    	width: 90%;
+    	height: auto;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    th {
+    	font-size: 16px;
+    }
+    td {
+    	font-size: 15px;
+    }
+    fieldset {
+    	width: 70%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    legend {
+    	font-size: 16px;
+    }
+    button {
+    	margin-left: 35px;
+    }
+    footer {
+    	 margin-bottom: 20px;
+    }
+    .footer2 {
+    	flex-direction: column;
+    }
+    .footer3 {
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 10px;
+    }
+    .footer4 {
+    	padding-top: 10;
+    	font-size: 16px;
+    }
+    .adres {
+    	margin-top: 0px;
+    	padding-bottom: 10px;
+    	font-size: 14px;
+    }
+    .number {
+    	margin-top: 0px;
+    	padding-bottom: 10px;
+    	font-size: 14px;
+    }
+    .social {
+    	margin-top: 8px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px)
+{
+	h1 {
+		font-size: 40px;
+		margin: 20px auto;
+	}
+	nav {
+		flex-direction: column;
+		width: 60%;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+}
+	.navigators {
+		width: 100%;
+		border-bottom: solid 1px black;
+	}
+	.navigators a {
+	    font-size: 17px;
+	}
+	.navigators:nth-child(5) {
+		border-bottom: none;
+	}
+	p {
+		font-size: 16px;
+		margin-top: 50px;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+	h2 {
+		font-size: 25px;
+		margin-top: 70px;
+	}
+	.choco {
+		width: 100%;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.choco div {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 25px;
+	}
+	.choco div img {
+		width: 70%;
+	}
+	span {
+		font-size: 16px;
+	}
+	.choco2 {
+		width: 100%;
+		flex-direction: column;
+		margin-top: 1px;
+	}
+	.choco2 div {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.choco2 div img {
+		width: 70%;
+		margin-top: 20px;
+	}
+	table {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	fieldset {
+		width: 80%;
+	}
+	.knopka {
+		font-size: 14px;
+	}
+    .footer2 {
+            flex-direction: column;
+        }
+        .footer3 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .footer4 {
+        padding-top: 10;
+        font-size: 18px;
+    }
+    .adres {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .number {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .social {
+        margin-top: 8px;
+    }
+    footer {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+	h1 {
+		font-size: 45px;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	nav {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 70px;
+    }
+    .navigators a {
+        font-size: 18px;    
+    }
+    h2 {
+        margin-top: 70px;
+    }
+    p {
+    	font-size: 20px;
+    }
+	.choco {
+		width: 100%;
+	}
+	.choco div {
+		width: 100%;
+	}
+	.choco div img {
+		width: 90%;
+	}
+	.choco2 {
+		width: 100%;
+	}
+	.choco2 div {
+		width: 100%;
+	}
+	.choco2 div img {
+		width: 90%;
+	}
+	table {
+		width: 50%;
+	}
+	fieldset {
+		width: 50%;
+	}
+	.knopka {
+		font-size: 14px;
+	}
+	footer {
+        margin-bottom: 20px;
+    }
+    .footer2 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer4 {
+    	font-size: 17px;
+    }
+    .adres {
+    	font-size: 15px;
+    }
+    .number {
+    	font-size: 15px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px)
+{
+	h1 {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	nav {
+        margin-top: 70px;
+	}
+	.navigators a {
+		font-size: 22px;
+	}
+	p {
+		font-size: 23px;
+		margin-bottom: 80px;
+	}
+	h2 {
+		font-size: 35px;
+		margin-top: 30px;
+	}
+	.choco {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.choco div {
+		width: 50%;
+	}
+	.choco div img {
+		width: 90%;
+		height: auto;
+	}
+	.choco2 {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.choco2 div {
+		width: 50%;
+	}
+	.choco2 div img {
+		width: 90%;
+		height: auto;
+	}
+	.price2 {
+		margin-top: 100px;
+	}
+	table {
+		width: 50%;
+    }
+    th {
+    	font-size: 24px;
+    }
+    td {
+    	font-size: 20px;
+    }
+    fieldset {
+    	width: 40%;
+    }
+    legend {
+    	font-size: 21px;
+    }
+    span {
+    	font-size: 21px;
+    }
+    button {
+    	width: 10%;
+    }
+    .knopka {
+    	font-size: 17px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+    	font-size: 23px;
+    }
+    .adres {
+    	font-size: 19px;
+    }
+    .number {
+    	font-size: 19px;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 1920px)
+{
+	h1 {
+		font-size: 60px;
+		margin-top: 20px;
+	}
+	nav {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    .navigators a {
+        font-size: 25px;
+    }
+    p {
+    	font-size: 30px;
+    }
+    h2 {
+    	font-size: 40px;
+    }
+    .choco {
+    	width: 100%;
+    }
+    .choco div {
+    	width: 100%;
+    }
+    .choco div img {
+    	width: 85%;
+    	height: auto;
+    }
+    .choco2 {
+    	width: 100%;
+    }
+    .choco2 div {
+    	width: 100%;
+    }
+    .choco2 div img {
+    	width: 85%;
+    	height: auto;
+    }
+    span {
+    	font-size: 24px;
+    }
+    .price2 {
+    	margin-top: 80px;
+    }
+    table {
+    	width: 40%;
+    }
+    th {
+    	font-size: 28px;
+    }
+    td {
+    	font-size: 25px;
+    }
+    fieldset {
+    	width: 40%;
+    }
+    legend {
+        font-size: 28px;
+    }
+    button {
+    	width: 10%;
+    }
+    .knopka {
+    	font-size: 22px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+        font-size: 26px;
+    }
+    .adres {
+        font-size: 24px;
+    }
+    .number {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1921px)
+{
+	h1 {
+		font-size: 70px;
+		margin-top: 20px;
+    }
+    nav {
+    	margin-top: 70px;
+    	width: 85%;
+    }
+    .navigators a {
+        font-size: 27px;
+	}
+	p {
+		font-size: 35px;
+	}
+	h2 {
+        font-size: 50px;
+    }
+    .choco {
+    	width: 100%;
+    }
+    .choco div img {
+    	width: 85%;
+    	height: auto;
+    }
+    .choco2 {
+    	width: 100%;
+    }
+    .choco2 div img {
+    	width: 85%;
+    	height: auto;
+    }
+    span {
+    	font-size: 30px;
+    }
+    table {
+    	width: 50%;
+    }
+    th {
+    	font-size: 33px;
+    }
+    td {
+    	font-size: 28px;
+    }
+    fieldset {
+    	width: 50%;
+    }
+    legend {
+    	font-size: 35px;
+    }
+    button {
+    	width: 10%;
+    }
+    .knopka {
+    	font-size: 26px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+    .footer4 {
+        font-size: 30px;
+    }
+    .adres {
+        font-size: 26px;
+    }
+    .number {
+        font-size: 26px;
+    }
+}
